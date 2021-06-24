@@ -1,8 +1,13 @@
 $color-default: #404040;
 $color-secondary: #6C7781;
+$color-light: #E2E4E7;
 $color-link: #0071A1;
 
 @import 'core';
+
+section{
+	padding: 30px;
+}
 
 body {
 	background-color: gainsboro;
@@ -42,6 +47,11 @@ body {
 		margin-top: 1px;
 		user-select: none;
 		-webkit-user-drag: none;
+
+		&.default{
+			padding: 8px 9px;
+			background-color: $color-light;
+		}
 	}
 
 	&-title {
