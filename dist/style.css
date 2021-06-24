@@ -1,5 +1,6 @@
 body {
   background-color: gainsboro;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 .wp-notification {
@@ -10,4 +11,22 @@ body {
   padding-right: 24px;
   padding-top: 14px;
   padding-bottom: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #404040;
+}
+.wp-notification-title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 2px 0;
+}
+.wp-notification-message {
+  margin: 0 0 8px 0;
+}
+.wp-notification-action {
+  text-decoration-line: underline;
+  color: #0071A1;
 }
