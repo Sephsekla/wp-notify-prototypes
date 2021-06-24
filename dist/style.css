@@ -17,6 +17,11 @@ body {
   line-height: 16px;
   color: #404040;
 }
+.wp-notification-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+}
 .wp-notification-title {
   font-weight: 600;
   font-size: 14px;

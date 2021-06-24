@@ -26,6 +26,12 @@ body {
 	line-height: 16px;
 	color: $color-default;
 
+	&-image{
+		width: 32px;
+		height: 32px;
+		border-radius: 8px;
+	}
+
 	&-title {
 		font-weight: 600;
 		font-size: 14px;
