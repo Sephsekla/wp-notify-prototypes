@@ -1,0 +1,13 @@
+body {
+  background-color: gainsboro;
+}
+
+.wp-notification {
+  width: 100%;
+  max-width: 320px;
+  background: white;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 14px;
+  padding-bottom: 16px;
+}
